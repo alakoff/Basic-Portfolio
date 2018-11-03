@@ -1,9 +1,7 @@
-body { 
-    background-color:#4aaaa5;
+html,body { 
+    height:100%;
     margin:0px;
-    padding:0px;
 }
-
 #top-header {
     float:left;
     background-color: #ffffff;
@@ -11,8 +9,7 @@ body {
     margin-bottom:0px;
     width:100%;
   
-}
-    
+} 
 #name {
     float:left;
     background-color:#4aaaa5;
@@ -59,7 +56,6 @@ body {
     padding-top:10px;
     text-decoration:none;
 }
-
 #a-port {
     float:left;
     margin-left:10px;
@@ -107,25 +103,23 @@ body {
     clear: both;
     overflow:auto;
     background-image: url("../images/gravel.png");
-    height:570px;
-    margin:0px;
-    padding:0px;
     width:100%;
+    height:80%;
 }
 #background-content-contact {
     clear: both;
     overflow:auto;
     background-image: url("../images/gravel.png");
-    height:570px;
+    height:70%;
     margin:0px;
-    padding:0px;
+    padding-bottom:60px;
     width:100%;
 }
 #background-content-portfolio {
     clear: both;
     overflow:auto;
     background-image: url("../images/gravel.png");
-    height:700px;
+    height:100%;
     margin:0px;
     padding:0px;
     width:100%;
@@ -134,7 +128,7 @@ body {
     clear:both;
     overflow:auto;
     width:960px;
-    height:450px;
+    height:75%;
     background-color:#ffffff;
     border-color:#dddddd;
     margin-left:200px;
@@ -142,25 +136,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
 }
-
 #main-content-contact {
     clear:both;
     overflow:auto;
     width:700px;
-    height:450px;
     background-color:#ffffff;
     border-color:#dddddd;
     margin-left:300px;
     margin-top:30px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 150%;
+    line-height: 125%;
     padding:10px;
 }
 #main-content-portfolio {
     clear:both;
     overflow:auto;
     width:700px;
-    height:550px;
+    /* height:550px; */
+    height:90%;
     background-color:#ffffff;
     border-color:#dddddd;
     margin-left:300px;
@@ -172,9 +165,11 @@ body {
 img {
     margin:15px;
     height:125px;
-    width:125px;
+    width:150px;
     float:left;
+    /* image-orientation: 180deg; */
 }
+
 #aboutme {
     padding-top:20px;
     margin-top:10px;
@@ -207,16 +202,18 @@ p {
 hr {
     margin:10px;
 }
-#footer {
-    clear: both;
-    padding:3px;
-    background-color:#333333;
+.footer {
+    background-color:#666666;
+    border-top-color: #4aaaa5;
     color:white;
+    height:30px;
     width: 100%;
-    margin-top:5px;
     text-align:center;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:-20px;
+    padding-top:20px;
 
+}
 #nameContact {
     clear:both;
     overflow:auto;
@@ -269,7 +266,6 @@ hr {
     float:left;
     margin-left:10px;
     width:30%;
-   
 }
 #Hangman {
     position: absolute;
@@ -280,14 +276,11 @@ hr {
     color:white;
     text-align:center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
-
 #image1-2 {
     float:left;
     margin-left:10px;
-    width:30%;
-   
+    width:30%; 
 }
 #RPGGame {
     position: absolute;
@@ -298,14 +291,12 @@ hr {
     width: 210px;
     text-align:center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
 /* Second Image Row */
 #image2-1 {
     float:left;
     margin-left:10px;
     width:30%;
-   
 }
 #Trivia {
     position: absolute;
@@ -316,14 +307,11 @@ hr {
     color:white;
     text-align:center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
-
 #image2-2 {
     float:left;
     margin-left:10px;
     width:30%;
-   
 }
 #Rutgers {
     position: absolute;
@@ -350,3 +338,8 @@ hr {
     width: 210px;
     text-align:center;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h6 {
+    padding:0px;
+    margin:0px;
+}
